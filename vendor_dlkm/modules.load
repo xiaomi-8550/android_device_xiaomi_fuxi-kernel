@@ -89,7 +89,9 @@ kernel/drivers/mfd/qcom-i2c-pmic.ko
 kernel/drivers/scsi/sg.ko
 kernel/drivers/spi/spi-msm-geni.ko
 kernel/drivers/spmi/spmi-pmic-arb-debug.ko
+kernel/drivers/net/phy/realtek.ko
 kernel/drivers/net/can/spi/mcp25xxfd.ko
+kernel/drivers/net/ethernet/toshiba/tc956x/tc956x_pcie_eth.ko
 kernel/drivers/uio/msm_sharedmem/msm_sharedmem.ko
 kernel/drivers/usb/phy/phy-generic.ko
 kernel/drivers/usb/phy/phy-qcom-emu.ko
@@ -201,6 +203,7 @@ kernel/drivers/hwtracing/stm/stm_console.ko
 kernel/drivers/hwtracing/stm/stm_ftrace.ko
 kernel/sound/usb/snd-usb-audio-qmi.ko
 kernel/sound/soc/codecs/snd-soc-hdmi-codec.ko
+kernel/sound/soc/codecs/snd-soc-tas5805m.ko
 kernel/net/wireless/cfg80211.ko
 kernel/net/mac80211/mac80211.ko
 kernel/net/qrtr/qrtr-smd.ko
